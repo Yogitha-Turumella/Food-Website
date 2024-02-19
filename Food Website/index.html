@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Store</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Menu -->
+    <div class="menu">
+        <nav>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <ion-icon name="grid-outline"></ion-icon>
+            </label>
+
+            <label class="logo">Timeless Tastes Tavern</label>
+
+            <ul>
+                <li><a href="#hero-section" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#app">Download App</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- End Menu -->
+
+    <!-- Hero Section -->
+    <div class="section flex" id="hero-section">
+        <div class="text">
+            <h1 class="primary">
+             <span>   Welcome to Timeless Tastes Tavern</span>
+            </h1>
+
+            <p class="tertiary">
+                Introducing Timeless Tastes Tavern, where flavor meets fascination! Step into a world where every bite tells a story and every recipe sparks inspiration. Welcome to a culinary oasis where taste buds dance and food fantasies come to life.
+
+                At Timeless Tastes Tavern we invite you to indulge your senses and embark on a journey through the vibrant tapestry of global cuisine. From the sizzle of a hot skillet to the aroma of freshly baked bread, every moment here is infused with the magic of gastronomy.
+            </p>
+
+            <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+        <div class="visual">
+            <img src="cover.jpg" alt="" />
+        </div>
+    </div>
+    <!-- End Hero Section -->
+
+    <section class="section-meals">
+        <div class="txt">
+            <h1>Our Product</h1>
+        </div>
+        <div class="container grid grid--3-cols margin-right-md">
+            <div class="meal">
+                <img src="rajma.jpg"
+                    class="meal-img" alt="Rajma Rice" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegetarian">Vegetarian</span>
+                    </div>
+                    <p class="meal-title">Rajma Rice</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>270</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>74</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.9</strong> rating
+                                (537)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="meal">
+                <img src="tofu.jpg"
+                    class="meal-img" alt="Tofu Curry" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegan">Vegan</span>
+                    </div>
+                    <p class="meal-title">Tofu Curry</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>400</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>92</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.8</strong> rating
+                                (441)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="meal">
+                <img src="thali.jpg"
+                    class="meal-img" alt="North Indian Thali" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegan">Vegan</span>
+                      <span class="tag tag--vegan">Famous</span>
+                      <span class="tag tag--vegan">Dish</span>
+                    </div>
+                    <p class="meal-title">North Indian Thali</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>700</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>86</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.4</strong> rating
+                                (349)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- How It Works -->
+    <div class="section" id="how-it-works">
+        <div class="txt">
+            <h1>How It's Work</h1>
+        </div>
+
+        <div class="container flex">
+            <div class="box">
+                <h3>Easy Order</h3>
+                <ion-icon name="timer-outline"></ion-icon>
+                <p>
+                    Welcome to Timeless Tastes Tavern, where ordering your favorite food is as easy as a few clicks! 
+                </p>
+            </div>
+
+            <div class="box active">
+                <h3>Best Quality</h3>
+                <ion-icon style="color: black;" name="trophy-outline"></ion-icon>
+                <p>
+                    At Timeless Tastes Tavern, we're committed to delivering nothing but the best to our customers. 
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>Fast Delivery</h3>
+                <ion-icon name="checkmark-done-circle-outline"></ion-icon>
+                <p>
+                    Hungry for delicious food but short on time? Look no further than Timeless Tastes Tavern! Our dedicated delivery team is on a mission to bring your order to your doorstep as quickly as possible.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End How It Works -->
+
+    <!-- About -->
+    <div class="section" id="about">
+        <div class="container flex">
+            <div class="visual">
+                <img src="fastfood.jpg" alt="" />
+            </div>
+            <div class="text">
+                <div class="secondary">About Our Restaurant</div>
+                <h2 class="primary">200+</h2>
+
+                <h3 class="tertiary">Our Delicious Food</h3>
+
+                <p>Welcome to Timeless Tastes Tavern , where every dish is a masterpiece and every dining experience is a celebration of flavor! Nestled in the heart of Bhimavaram, our restaurant is a culinary haven where food lovers come together to indulge their senses and tantalize their taste buds.
+                  
+
+
+                </p>
+
+                <a href="#menu" class="btn">Explore Menu</a>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Restaurant Menu -->
+    <div class="section" id="menu">
+        <div class="container-menu">
+            <ul class="category">
+                <li class="active">All</li>
+                <li>Biryani</li>
+                <li>Chicken</li>
+                <li>Pizza</li>
+                <li>Burger</li>
+                <li>Pasta</li>
+            </ul>
+
+            <div class="container">
+                <div class="restaurant-menu">
+                    <div class="menu-item">
+                        <img src="biriyani.jpg"
+                            alt="" />
+
+                        <div class="title">Timeless Tastes Tavern| Biryani</div>
+
+                        <div class="location">Bhimavaram,Andhrapradesh</div>
+
+                        <div class="order flex">
+                            <div class="price">250</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="dragon chicken.jpg"
+                            alt="" />
+
+                        <div class="title">Timeless Tastes Tavern| dragon chicken</div>
+
+                        <div class="location">Bhimavaram,AndhraPradesh</div>
+
+                        <div class="order flex">
+                            <div class="price">350</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="chicken pizza.jpg"
+                            alt="" />
+
+                        <div class="title">Timeless Tastes Tavern |Chicken Pizza</div>
+
+                        <div class="location">Bhimavaram,AndhraPradesh</div>
+
+                        <div class="order flex">
+                            <div class="price">190</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="chicken burger.jpg"
+                            alt="" />
+
+                        <div class="title">Timeless Tastes Tavern|Chicken Burger</div>
+
+                        <div class="location">Bhimavaram,AndhraPradesh</div>
+
+                        <div class="order flex">
+                            <div class="price">100</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="pastha.jpg"
+                            alt="" />
+
+                        <div class="title">Timeless Tastes Tavern|Pastha</div>
+
+                        <div class="location">Bhimavaram,AndhraPradesh</div>
+
+                        <div class="order flex">
+                            <div class="price">200</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="veg pizza.jpg"
+                            alt="" />
+
+                        <div class="title">Timeless Tastes Tavern| Veg Pizza</div>
+
+                        <div class="location">Bhimavaram,AndhraPradesh</div>
+
+                        <div class="order flex">
+                            <div class="price">190</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+                    
+
+                    <div class="menu-item">
+                        <img src="veg burger.jpg"
+                            alt="" />
+
+                        <div class="title">Food Restaurant | Veg Burger</div>
+
+                        <div class="location">Bhimavaram,AndhraPradesh</div>
+
+                        <div class="order flex">
+                            <div class="price">200</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="veg manchurian.jpg"
+                            alt="" />
+
+                        <div class="title">Timeless Tastes Tavern| Veg Manchurian</div>
+
+                        <div class="location">Bhimavaram,AndhraPradesh</div>
+
+                        <div class="order flex">
+                            <div class="price">170</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Restaurant Menu -->
+
+    <!-- FAQ -->
+    <div class="section" id="faq">
+        <h2 class="secondary">Frequently Asked Questions</h2>
+
+        <div class="faq">
+            <details>
+                <summary>How long will it take for my order to arrive?</summary>
+                <div class="content">
+                    <p>
+                        Our average delivery time is approximately 30-45 minutes, but it may vary depending on factors like order volume and distance. Rest assured, we're working hard to get your delicious meal to you as quickly as possible!
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary> Can I track my order?</summary>
+                <div class="content">
+                    <p>
+                        Absolutely! Once your order is confirmed, you'll receive a tracking link via email or SMS. Click on the link to see real-time updates on the status of your delivery and estimated arrival time.
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>What if there's an issue with my order?</summary>
+                <div class="content">
+                    <p>
+                        If you encounter any problems with your order, such as missing items or incorrect items, please reach out to our customer support team right away. We're here to help and will do everything we can to make it right.
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary> Can I make changes to my order after it's been placed?</summary>
+                <div class="content">
+                    <p>
+                        Unfortunately, we're unable to make changes to orders once they've been submitted. However, if you need to cancel or modify your order, please contact our support team as soon as possible, and we'll do our best to assist you.
+                    </p>
+                </div>
+            </details>
+        </div>
+    </div>
+    <!-- End FAQ -->
+
+    <!-- App -->
+    <div class="section" id="app">
+        <div class="container flex">
+            <div class="app-photo">
+                <img width="500px" src="delivery.jpg" alt="" />
+            </div>
+
+            <div class="text">
+                <h2 class="secondary">Download The Timeless Tastes Tavern  App</h2>
+                <p>
+                    Welcome to the  Timeless Tastes Tavern app  your gateway to culinary bliss! Download now and unlock a world of flavors at your fingertips.
+
+                    With the Timeless Tastes Tavern app, ordering your favorite meals has never been easier. Browse our extensive menu, featuring a tantalizing array of dishes crafted by our expert chefs. From savory appetizers to mouthwatering mains and decadent desserts, there's something to satisfy every craving.
+                </p>
+
+                <div class="download flex">
+                    <div class="app-store">
+                        <ion-icon name="logo-google-playstore"></ion-icon>
+                        <p>
+                            GET IT ON <br />
+                            <span>Google Play</span>
+                        </p>
+                    </div>
+
+                    <div class="app-store">
+                        <ion-icon name="logo-apple"></ion-icon>
+                        <p>
+                            Donload on the <br />
+                            <span>App Store</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End App -->
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container flex">
+            <div class="footer-about">
+                <h2>About</h2>
+                <p>
+                    Join us at Timeless Tastes Tavern and experience the magic of Indian cuisine. Whether you're a seasoned spice enthusiast or a curious newcomer, we invite you to savor the flavors of India with us. Get ready to embark on a gastronomic adventure that will awaken your senses and transport you to the bustling streets and bustling markets of India.
+                </p>
+            </div>
+
+            <div class="footer-category">
+                <h2>Our Menu</h2>
+
+                <ul>
+                    <li>Biryani</li>
+                    <li>Chicken</li>
+                    <li>Pizza</li>
+                    <li>Burger</li>
+                    <li>Pasta</li>
+                    <li>Many More</li>
+                </ul>
+            </div>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Menu</li>
+                    <li>Order</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+
+            <div class="get-in-touch">
+                <h2>Get in touch</h2>
+                <ul>
+                    <li>Account</li>
+                    <li>Support Center</li>
+                    <li>Feedback</li>
+                    <li>Suggession</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &copy; 2024 Design By Yogitha Turumella</p>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Ion Icons Js -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+</body>
+
+</html>
